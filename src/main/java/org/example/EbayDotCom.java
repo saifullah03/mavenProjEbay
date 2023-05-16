@@ -10,5 +10,6 @@ public class EbayDotCom {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("https://www.ebay.com/");
+        System.out.println("HelloJava");
     }
 }
